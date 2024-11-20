@@ -1,0 +1,58 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 570px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    text-align: left;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.checkbox input {
+    margin-right: 5px;
+}
+
+button {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,134,13,1) 35%,
+    rgba(138,136,29,0.896796218487395) 100%);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}

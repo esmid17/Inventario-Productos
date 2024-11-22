@@ -44,6 +44,16 @@ button{
     border-radius: 10px;
 }
 
+.btnTabla{
+    color: white;
+    font-weight: bold;
+    background-color: #26751e;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
 .mainContent {
     flex: 3;
     background: rgb(2,0,36);

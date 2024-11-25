@@ -7,11 +7,15 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: static;
+    z-index: 1;
 }
 
 nav {
+    list-style: none;
     background-color: #28802c;
     color: white;
+    position:sticky;
     padding: 2px;
 }
 
@@ -115,13 +119,10 @@ td{
 
 .chatbox {
     position: fixed;
-    bottom: 20px;
     right: 20px; 
     width: 300px;
     background-color: #f4f4f4;
     border-radius: 10px;
-    z-index: 1000;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
